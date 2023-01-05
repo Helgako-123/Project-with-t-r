@@ -1,13 +1,99 @@
-
-
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
 .company-name{
-    margin-left: 20px;
-    padding-left: 20px;
+    margin-left: 80px;
+    padding-left: 80px;
+    color: orange;
 }
 
 h1 {
-    font-weight: 700;
     font-size: 48px;
-    color:darkslateblue;
+    color:orange;
+}
+
+.main-photo {
+    position: relative;
+}
+
+.main-heading {
+    top: 4em;
+    right: 6em;
+    left: auto;
+}
+
+.link-contact {
+    color: orange;
+}
+
+/* Reputation section*/
+
+.reputation h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    color:orange;
+}
+
+/* Photo and History section*/
+
+.container {
+    position: relative;
+    
+}
+
+.img-holder, .img-info {
+    position: absolute;
+}
+
+.img-holder {
+    width: 75%;
+}
+
+.img-info {
+    top: 5em;
+    bottom: 1em;
+    left: 35em;
+}
+
+.btn-service {
+        width: 16em;
+        height: 14em;
+        margin: 10px 10px;
+        background-color: rgb(236, 235, 235);
+        border: none;
+        color: blue;
+}
+
+.serv-heading {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.col-sm i {
+    width: 80px;
+    height: 80px;
+}
+
+.cont-last {
+    height: 28em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(236, 235, 235);
+    padding: 50px 0;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
 }
